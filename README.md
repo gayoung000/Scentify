@@ -54,7 +54,14 @@
 <br>
 
 ## 📌 아키텍처 다이어그램
-![제목을-입력해주세요_-002](/uploads/77893ad96877a18c95373934d64eb897/제목을-입력해주세요_-002.png){width=1440 height=810}
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/22e98b50-1d78-49ab-9f5c-ee267e7cff8d" width="500" />
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/6a874280-502c-46dc-98e4-5598657469e2" width="500" />
+  <br><br>
+  <img src="https://github.com/user-attachments/assets/28fa262a-b909-419a-bf9b-e52006e96ec0" width="500" />
+</div>
+
 
 <br>
 
@@ -66,9 +73,10 @@
 <br>
 
 ## 📌 ERD 다이어그램
-![Untitled](/uploads/6969039fd2a703988aaabf8f21dac0ec/Untitled.png)
-
+<div align="center">
+<img src="https://github.com/user-attachments/assets/9e121363-3e82-4b73-9c75-c22a5942b2c5" width="500" />
 <br>
+</div>
 
 ## 📌 API 명세서
 ### 1️⃣ [BE] API 명세서
