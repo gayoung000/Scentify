@@ -72,18 +72,36 @@
 
 ## 📌 API 명세서
 ### 1️⃣ [BE] API 명세서
-![image](/uploads/55f0a4241db1e1e68b27249bf1380626/image.png){width=871 height=516}
-![image](/uploads/9e8285c8c12bd44908c172cc899e5b29/image.png){width=871 height=461}
-![image](/uploads/afa29cc78f5b4d2309a22e24f365746e/image.png){width=871 height=504}
-![image](/uploads/9e87ca1ec81f7841f5fe248ea7e36e0d/image.png){width=871 height=473}
-![image](/uploads/aba6ed9ed7fbf69a96947d8ddd10cc77/image.png){width=871 height=409}
-![image](/uploads/105ceebbb5038f1effef40638fb3253d/image.png){width=871 height=518}
-![image](/uploads/d7f7bab0ce1abaa9cf23b70c24f99906/image.png){width=871 height=517}
-![image](/uploads/f5e0d2a4e7d6639cd93a33b7bb519736/image.png){width=871 height=387}
-![image](/uploads/b966e56b277b55a7d635fff204e2cf74/image.png){width=871 height=500}
-![image](/uploads/d65367e2033991d5d4e72242b049e265/image.png){width=871 height=51}
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/fd64eeb7-33f6-400b-b4d5-809792c8acb8" width="871" height="516" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/e6ed96e7-be23-4302-a18c-31d2e4996798" width="871" height="461" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/562f701e-99c4-4fde-bf2b-899c4042ec4d" width="871" height="504" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/d6003036-2f0b-48ac-9095-3cb8777789c2" width="871" height="473" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/d98ef536-3357-4dbe-8ea6-dbd434e53b4d" width="871" height="409" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/46e6fdc5-d0b7-43d1-a2af-21c08257912a" width="871" height="518" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/87c3d1b2-4673-42fb-8751-2868fee7034f" width="871" height="517" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/27e3fc98-7e2f-4c0e-b31b-2924a8cb532e" width="871" height="387" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/bba7d9c0-cd9d-4098-9e14-24f008ed6a83" width="871" height="500" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/367b3ceb-2f35-44dc-ba07-1d9f3f68a20d" width="871" height="51" />
+</div>
+
+
 
 ### 2️⃣ [EM] API 명세서
-![image](/uploads/e0379c5597eef0e6a6f388f9ba7d312e/image.png){width=871 height=496}
-![image](/uploads/98f19db8cbff61d0fb2b758dd7e3ea64/image.png){width=871 height=444}
-![image](/uploads/6d63f3b437c153b553121de808f229eb/image.png){width=871 height=244}
+
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/413515e5-629f-4d9f-bb54-41acca07260a" width="871" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/9e57c5b6-4f4a-4967-a48b-a9ccb7d6b771" width="871" />
+  <br>
+  <img src="https://github.com/user-attachments/assets/630a3f1a-0d2c-4311-b32f-90465d9fdcb7" width="871" />
+</div>
