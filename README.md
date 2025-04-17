@@ -1,55 +1,79 @@
 # 💜 Scentify : 스마트 디퓨저 프로젝트 💜
 
-## 📌 프로젝트 기획 요약
+![소개사진](exec/소개사진.png)
 
-1. **주변 환경 또는 사용자 행동 기반 자동화 모드을 제공합니다.**
-    - 악취 탐지될 시, 사용자 설정 간격으로 기본 조합을 분사합니다.
-   - 카메라 센서를 통해 인식된 사용자 행동을 분석하여 운동, 집중 모드에 해당할 경우 추천 조합을 분사합니다.
-   - 카메라 센서에 사용자 감지 시, 기본 조합을 분사합니다.
- 
+## 📌 프로젝트 소개
+
+### Scentify는 AI 기반 자동화 및 예약 모드를 제공하는 사용자 맞춤형 스마트 디퓨저입니다.
+
+<br>
+
+1. **주변 환경 또는 사용자 행동 기반 자동화 모드를 제공합니다.**
+
+   - 탈취모드는 악취 감지 센서를 통해 악취 감지 시 분사하는 모드입니다.
+   - 동작모드는 카메라 센서를 통해 인식된 사용자 행동을 분석하여 운동, 휴식 각각 도움이 되는 향을 분사하는 모드입니다.
+   - 탐지모드는 카메라 센서에 사용자 감지 시 일정 간격으로 분사하는 모드입니다.
+
 2. **예약 시간을 설정할 수 있는 스케줄 모드를 제공합니다.**
-    - 사용자가 시작/ 종료시간, 분사 간격, 향 조합을 설정하면 해당 시간에 분사합니다.
 
-3. **찜한 향기 조합 페이지 저장 및 공유 기능합니다.**
-    - 찜한 향기 조합에 대한 설명 페이지를 이미지로 저장 가능합니다.
-    - 또한 향기 조합을 링크로 공유 및 링크를 받은 사용자가 향기 조합 등록 가능합니다.
+   - 사용자가 시간, 요일, 분사 주기, 향 조합을 설정하면 해당 시간에 분사합니다.
+
+3. **찜한 향기 조합 페이지 저장 및 공유 기능을 제공합니다.**
+
+   - 찜한 향기 조합에 대한 AI이미지 카드를 저장 가능합니다.
+   - 또한 향기 조합을 링크로 공유 및 링크를 받은 사용자가 향기 조합을 등록할 수 있습니다.
+
+- [Scentify 이용 매뉴얼](./exec/Scentify%20이용%20매뉴얼.pdf)
+  <br>
+  <br>
+
+### 1️⃣ 프로젝트 기간
+
+2025.01.08 ~ 2025.02.27
+
+### 2️⃣ 팀원 소개
+
+| 이름   | 역할  | 구현 기능                                                   |
+| ------ | ----- | ----------------------------------------------------------- |
+| 안태현 | EM    | 하드웨어 설계, AI 모델 학습, MQTT 통신                      |
+| 어선정 | BE    | ERD 설계, API 명세서 작성, BE 개발, DB 관리, WebSocket 통신 |
+|        | Infra | 배포 환경 구축                                              |
+| 이가영 | FE    | Flowchart 작성, UI 디자인, Home 탭                          |
+|        | Infra | FE 배포 환경 구축                                           |
+| 이가희 | FE    | Wireframe 작성, My 탭, Scent 탭 공유하기 기능               |
+| 주현호 | FE    | Wireframe 작성, Control 탭, Scent 탭 찜하기 기능            |
+|        | EM    | WebSocket 초기 설정                                         |
+
+### 3️⃣ 기술 스택
+
+| 분야  | 기술 스택                                    |
+| ----- | -------------------------------------------- |
+| FE    | React 18.2.0, TypeScript, HTML, Tailwind CSS |
+| BE    | Java 17, Spring Boot 3.4.1                   |
+| DB    | MySQL 8.0.4, Redis                           |
+| EM    | Python 3.8, Torch 2.1.0, Yolo v8, SlowFast   |
+| Infra | AWS EC2, Jenkins, NginX, S3                  |
 
 <br>
 
-## 📌 브랜치 설명
-- **task** : 과제 수행 및 관련 README.md가 작성되어 있습니다.
-    - 과제 1 프로젝트 위치 : S12P11A205/ Sub_PJT/ Sub_PJT1
-
-- **master** : Scentify 프로젝트 관련 README.md가 작성되어 있습니다.
-    - **FE/ Develop** : FrontEnd 개발 브랜치 입니다.
-        - 프로젝트 위치 : S12P11A205/ FrontEnd
-    - **BE/ Develop** : BackEnd 개발 브랜치 입니다.
-        - 프로젝트 위치 : S12P11A205/ BackEnd
-    - **EM / Develop** : Embedded 개발 브랜치 입니다.
-        - 프로젝트 위치 : S12P11A205/ Embedded
-
-<br>
 
 ## 📌 기획서 및 요구사항 분석
+
 ### 1️⃣ 기획서
-![image](/uploads/6c83953a8e0fc12d0d145f7576724bc4/image.png){width=434 height=162}
-![image](/uploads/661ca29ea486c53180be1e4e48ca9276/image.png){width=434 height=162}
-![image](/uploads/e7e18582a2f99835c172c14f1284b7e7/image.png){width=434 height=162}
 
----
+![image](exec/기획서/기획서-1.png)
+![image](exec/기획서/기획서-2.png)
+![image](exec/기획서/기획서-3.png)
 
-### 2️⃣ 요구사항 분석
-### **[기능 명세서]**
-![image](/uploads/706bddf2796238e110e9fa15bdf2f22b/image.png){width=434 height=513}
-![image](/uploads/6583f0713f3e4133c8c43b71d55e08b8/image.png){width=434 height=440}
+- [1차 기획서](./exec/기획서/1차%20기획서.pdf)
+- [2차 기획서](./exec/기획서/2차%20기획서.pptx)
 
-### **[비기능 명세서]**
-![image](/uploads/1d4daef782b7037dc4d44817a698de3f/image.png){width=434 height=449}
 
 <br>
 
-## 📌 시퀀스 다이어그램
-![플로우차트__1_](/uploads/3b851b6ce0faef01896a6dfe439e99f0/플로우차트__1_.png)
+## 📌 플로우 차트
+
+![플로우 차트](exec/시퀀스%20다이어그램.png)
 
 <br>
 
@@ -65,18 +89,55 @@
 
 <br>
 
-## 📌 UI 기획
-![1__1_](/uploads/9e62a0fdb450fdd06c0943cc12b2662b/1__1_.png)
-![2__1_](/uploads/e29f79ab3518faab66d5e7b66c0ba148/2__1_.png)
-![3__1_](/uploads/f932b93a63f39811609a3ea44cd901f5/3__1_.png)
-
-<br>
-
 ## 📌 ERD 다이어그램
 <div align="center">
 <img src="https://github.com/user-attachments/assets/9e121363-3e82-4b73-9c75-c22a5942b2c5" width="500" />
 <br>
 </div>
+
+<br>
+
+## 📌 주요 기능
+
+### 1.회원가입
+
+<img src="https://github.com/user-attachments/assets/9cc555ad-96ea-4080-b379-5ce36a3bacef" width="350px">
+
+### 2.로그인
+
+<img src="https://github.com/user-attachments/assets/8877c638-48e0-4ce6-b563-285ed7f91c24" width="350px">
+
+### 3.기기등록
+
+<img src="https://github.com/user-attachments/assets/6f456784-e127-4d25-acd7-56a8c4294aff" width="350px">
+
+### 4.즉시분사
+
+<img src="https://github.com/user-attachments/assets/932efe62-ed97-42cc-a05b-9ad3913a97ae" width="350px">
+
+### 5.예약모드
+
+<img src="https://github.com/user-attachments/assets/23b8cc2b-adec-4d37-ae46-6322b5a691b0" width="350px">
+
+### 6.자동화모드
+
+<img src="https://github.com/user-attachments/assets/168fcbaa-c16e-4333-bfb5-648536f1d847" width="350px">
+
+### 7.찜하기
+
+<img src="https://github.com/user-attachments/assets/8f06ef47-eb74-493b-807e-f92c98e5c042" width="350px">
+
+### 8.공유하기
+
+<img src="https://github.com/user-attachments/assets/890b84dc-586b-412b-acad-cbdc818d095e" width="350px">
+
+### 9.그룹관리
+
+<img src="https://github.com/user-attachments/assets/bccf5136-fe90-42f1-927b-7ceef157714a" width="300px">
+<img src="https://github.com/user-attachments/assets/543eb85a-ec95-40af-90c8-f5f8f0abb348" width="300px">
+<img src="https://github.com/user-attachments/assets/85172d52-63e3-434d-aacf-e07f03c2328d" width="300px">
+
+<br>
 
 ## 📌 API 명세서
 ### 1️⃣ [BE] API 명세서
@@ -113,3 +174,18 @@
   <br>
   <img src="https://github.com/user-attachments/assets/630a3f1a-0d2c-4311-b32f-90465d9fdcb7" width="871" />
 </div>
+
+<br>
+
+## 📌 유저 테스트
+
+- 삼성 임직원 유저 테스트 참여(2025.02.18)
+
+- 테스트 결과 반영(2025.02.19)
+- [유저 테스트 문서](./exec/유저테스트.md)
+
+## 📌 배포
+
+- 서비스 URL: http://my-scentify.shop/
+- 배포 기간: 2025.02.07 ~ 2025.03.06
+- [Scentify 포팅 매뉴얼](./exec/Scentify%20포팅%20매뉴얼.pdf)
